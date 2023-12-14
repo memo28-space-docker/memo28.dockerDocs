@@ -18,6 +18,8 @@ Add /viteDocsCn/.vitepress/dist/ /usr/share/nginx/vite
 
 Add /v3DocsCn/.vitepress/dist/ /usr/share/nginx/vue
 
+Add /router/packages/docs/.vitepress/dist/ /usr/share/nginx/vueRouter
+
 ADD ./default.conf /etc/nginx/conf.d/default.conf
 
 RUN echo 'start nginx!'
